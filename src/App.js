@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // This does a lot of the heavy lifting for the backend work - commercejs is great :)
 import { commerce } from "./lib/commerce";
-import { Products, Navbar, Cart } from "./components";
+import { Products, Navbar, Cart, Checkout } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Come back to this - might have to update ALL OF IT - but first let's make it run
@@ -18,14 +18,31 @@ const App = () => {
   };
 
   const fetchCart = async () => {
-    const cart = await commerce.cart.retrieve();
-    setCart(cart);
+    setCart(await commerce.cart.retrieve());
   };
 
   const handleAddToCart = async (productId, quantity) => {
     const item = await commerce.cart.add(productId, quantity);
 
-    setCart(item.cart);
+    setCart(item);
+  };
+
+  const handleUpdateCartQty = async (productId, quantity) => {
+    const response = await commerce.cart.update(productId, { quantity });
+
+    setCart(response);
+  };
+
+  const handleRemoveFromCart = async (productId) => {
+    const response = await commerce.cart.remove(productId);
+
+    setCart(response);
+  };
+
+  const handleEmptyCart = async () => {
+    const response = await commerce.cart.empty();
+
+    setCart(response);
   };
 
   useEffect(() => {
@@ -34,20 +51,30 @@ const App = () => {
   }, []);
 
   console.log(cart);
-
+  // console.log(cart.total_items);
   return (
     <Router>
       <div>
         <Navbar totalItems={cart.total_items} />
         <Routes>
           <Route
-            exact
             path="/"
             element={
               <Products products={products} onAddToCart={handleAddToCart} />
             }
           />
-          <Route exact path="/cart" element={<Cart cart={cart} />} />
+          <Route
+            path="/cart"
+            element={
+              <Cart
+                cart={cart}
+                handleUpdateCartQty={handleUpdateCartQty}
+                handleRemoveFromCart={handleRemoveFromCart}
+                handleEmptyCart={handleEmptyCart}
+              />
+            }
+          />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </div>
     </Router>
