@@ -6,7 +6,7 @@
 <br />
 <p align="center">
 
-    <img src="./public/heart.jpeg" alt="Logo" width="100" height="100">
+<img src="./public/heart.jpeg" alt="Logo" width="100" height="100">
 
   <h3 align="center">He(ART) Paintings</h3>
 
