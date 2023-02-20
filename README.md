@@ -24,13 +24,9 @@ This project is powered by ReactJS, Commerce.js, and Stripe.
 
 <p align='center'>
 
-<img src="./public/screenshot.png" alt="screenshot" width="50%">
+<img src="./public/screenshot.png" alt="screenshot" width="100%">
 
 <br/>
-
-## Deployed Site He(ART) Paintings:
-
-Check out He(ART) Paintings here!
 
 <!--- You can link to the deployed site, or a link to the demo recording, or etc. here --->
 
