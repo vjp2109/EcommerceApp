@@ -6,7 +6,7 @@
 <br />
 <p align="center">
 
-<img src="./public/heart.jpeg" alt="Logo" width="100" height="100">
+<img src="./public/heart.jpeg" alt="Logo" width="25%">
 
   <h3 align="center">He(ART) Paintings</h3>
 
@@ -66,7 +66,7 @@ Thanks to the following people who have contributed to this project:
 
 If you want to contact me you can reach me at <vjp2109@columbia.edu>.
 
-Connect with me on <a href="/linkedin.com/in/vaughnpole">LinkedIN</a>
+Connect with me on <a href="https://www.linkedin.com/in/vaughnpole/">LinkedIN</a>
 
 ## Additional Resources:
 
