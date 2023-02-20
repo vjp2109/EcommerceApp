@@ -13,8 +13,9 @@ const PaymentForm = ({
   checkoutToken,
   shippingData,
   backStep,
-  nextStep,
   onCaptureCheckout,
+  nextStep,
+  timeout,
 }) => {
   const handleSubmit = async (event, elements, stripe) => {
     event.preventDefault();
@@ -42,7 +43,8 @@ const PaymentForm = ({
           name: "Primary",
           street: shippingData.address1,
           town_city: shippingData.city,
-          county_state: shippingData.zip,
+          county_state: shippingData.shippingSubdivision,
+          postal_zip_code: shippingData.zip,
           country: shippingData.shippingCountry,
         },
         fulfillment: { shipping_method: shippingData.shippingOption },
@@ -54,6 +56,7 @@ const PaymentForm = ({
         },
       };
       onCaptureCheckout(checkoutToken.id, orderData);
+      timeout();
       nextStep();
     }
   };

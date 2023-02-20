@@ -4,16 +4,14 @@ import { commerce } from "./lib/commerce";
 import { Products, Navbar, Cart, Checkout } from "./components";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Come back to this - might have to update ALL OF IT - but first let's make it run
 const App = () => {
   const [products, setProducts] = useState([]);
-  // Might have to switch this
+
   const [cart, setCart] = useState({});
   const [order, setOrder] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
 
   const fetchProducts = async () => {
-    // we have to wait to see what inside the promise
     const { data } = await commerce.products.list();
 
     setProducts(data);
@@ -48,8 +46,9 @@ const App = () => {
   };
 
   const refreshCart = async () => {
-    const response = await commerce.cart.refresh();
-    setCart(response);
+    const newCart = await commerce.cart.refresh();
+
+    setCart(newCart);
   };
 
   const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
@@ -60,18 +59,18 @@ const App = () => {
       );
 
       setOrder(incomingOrder);
+
       refreshCart();
     } catch (error) {
       setErrorMessage(error.data.error.message);
     }
   };
+
   useEffect(() => {
     fetchProducts();
     fetchCart();
   }, []);
 
-  console.log(cart);
-  // console.log(cart.total_items);
   return (
     <Router>
       <div>
