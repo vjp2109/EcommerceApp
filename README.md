@@ -24,7 +24,7 @@ This project is powered by ReactJS, Commerce.js, and Stripe.
 
 <p align='center'>
 
-<img src="./public/screenshot.png" alt="screenshot1" width="100%">
+<img src="./public/screenshot1.png" alt="screenshot1" width="100%">
 
 <br/>
 
