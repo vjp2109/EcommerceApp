@@ -24,9 +24,17 @@ This project is powered by ReactJS, Commerce.js, and Stripe.
 
 <p align='center'>
 
-<img src="./public/screenshot.png" alt="screenshot" width="100%">
+<img src="./public/screenshot.png" alt="screenshot1" width="100%">
 
 <br/>
+
+## Deployed Site He(ART) Paintins:
+
+Check out the website here!
+
+```
+https://heartpaintings.netlify.app/
+```
 
 <!--- You can link to the deployed site, or a link to the demo recording, or etc. here --->
 
@@ -58,7 +66,6 @@ Thanks to the following people who have contributed to this project:
 2. Add more paintings from other artists.
 3. Provide filter function to filter which paintings I want to see by artists.
 4. Link to partner schools and dynamically render how much money has been raised.
-5. Deploy to Netlify or Heroku.
 
 ## Contact:
 
