@@ -36,6 +36,13 @@ Check out the website here!
 https://heartpaintings.netlify.app/
 ```
 
+## Payment:
+
+- As this is a fictional site, actual purchases will not be made. To mimic a purchase use the mock credit card info provided by Stripe.
+- When testing interactively, use a card number, such as 4242 4242 4242 4242. Enter the card number in the Dashboard or in any payment form.
+- Use a valid future date, such as 12/34.
+- Use any three-digit CVC (four digits for American Express cards).
+- Use any value you like for other form fields.
 <!--- You can link to the deployed site, or a link to the demo recording, or etc. here --->
 
 ## Contributing to He(ART) Paintings:
