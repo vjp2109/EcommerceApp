@@ -6,9 +6,7 @@
 <br />
 <p align="center">
 
-    <img src="public/heart.jpeg" alt="Logo" width="100" height="100">
-
-  </a>
+    <img src="./public/heart.jpeg" alt="Logo" width="100" height="100">
 
   <h3 align="center">He(ART) Paintings</h3>
 
@@ -18,7 +16,7 @@
 
 He(ART) Paintings is a fictional E-Commerce site that allows consumers to purchase paintings that are provided.
 
-This project is powered by ReactJS, Commerce.js, and Stripe. It entails a fully functional cart provided Commerce.js and payment page provided with Stripe.
+This project is powered by ReactJS, Commerce.js, and Stripe.
 
 <!-- PROJECT DEMO GIF, AND IMAGES SHOULD BE PUT HERE -->
 
@@ -55,8 +53,6 @@ Thanks to the following people who have contributed to this project:
 
 ## Roadmap:
 
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
 <!--- This is also a place to share any edge cases you're working on, any current limitations of the project currently and future rollouts  --->
 
 1. Fix the bug that doesn't allow for the cart to refresh/empty itself after payment has been made and confirmation page is rendered.
@@ -70,7 +66,7 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 
 If you want to contact me you can reach me at <vjp2109@columbia.edu>.
 
-Connect with me on <a href="/linkedin.com/in/nicoleraedrummond">LinkedIN</a>
+Connect with me on <a href="/linkedin.com/in/vaughnpole">LinkedIN</a>
 
 ## Additional Resources:
 
