@@ -58,7 +58,7 @@ Thanks to the following people who have contributed to this project:
 2. Add more paintings from other artists.
 3. Provide filter function to filter which paintings I want to see by artists.
 4. Link to partner schools and dynamically render how much money has been raised.
-5. Deploy to Netlify or Heroku
+5. Deploy to Netlify or Heroku.
 
 ## Contact:
 
