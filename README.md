@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# He(ART) Paintings
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
 
-In the project directory, you can run:
+    <img src="public/heart.jpeg" alt="Logo" width="100" height="100">
 
-### `npm start`
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3 align="center">He(ART) Paintings</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    For every purchase, 25% will go towards teaching coding in New York City public schools.
+    <br />
 
-### `npm test`
+He(ART) Paintings is a fictional E-Commerce site that allows consumers to purchase paintings that are provided.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is powered by ReactJS, Commerce.js, and Stripe. It entails a fully functional cart provided Commerce.js and payment page provided with Stripe.
 
-### `npm run build`
+<!-- PROJECT DEMO GIF, AND IMAGES SHOULD BE PUT HERE -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_</b> Image(s) Insert Here_ </b> - here is where you can place images of your project, a demo gif, and link to a deployed site - visuals matter!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align=‘center’/>
+<p align='center'><a href="https://www.loom.com/share/04d6c8482c7341fb9b423d10f0bea30b"> <img style="max-width:300px" src="https://cdn.loom.com/sessions/thumbnails/04d6c8482c7341fb9b423d10f0bea30b-with-play.gif"> </br> <p align='center'> Watch Video</p> </a> </p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployed Site He(ART) Paintings:
 
-### `npm run eject`
+Check out He(ART) Paintings here!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!--- You can link to the deployed site, or a link to the demo recording, or etc. here --->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing to He(ART) Paintings:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To contribute to He(ART) Paintings, follow these steps:
 
-## Learn More
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributors/Collaborators:
 
-### Code Splitting
+Thanks to the following people who have contributed to this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [@Adrian Hajdin](https://github.com/adrianhajdin)
 
-### Analyzing the Bundle Size
+## Roadmap:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-### Making a Progressive Web App
+<!--- This is also a place to share any edge cases you're working on, any current limitations of the project currently and future rollouts  --->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fix the bug that doesn't allow for the cart to refresh/empty itself after payment has been made and confirmation page is rendered.
+2. Add more paintings from other artists.
+3. Provide filter function to filter which paintings I want to see by artists.
+4. Link to partner schools and dynamically render how much money has been raised.
 
-### Advanced Configuration
+## Contact:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
 
-### Deployment
+If you want to contact me you can reach me at <vjp2109@columbia.edu>.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Connect with me on <a href="/linkedin.com/in/nicoleraedrummond">LinkedIN</a>
 
-### `npm run build` fails to minify
+## Additional Resources:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://reactjs.org/
+
+https://reactrouter.com/en/main
+
+https://commercejs.com/
+
+https://stripe.com/

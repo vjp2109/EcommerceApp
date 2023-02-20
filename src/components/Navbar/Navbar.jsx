@@ -3,14 +3,12 @@ import {
   Toolbar,
   IconButton,
   Badge,
-  MenuItem,
-  Menu,
   Typography,
 } from "@material-ui/core";
-import { Shop, ShoppingCart } from "@material-ui/icons";
+import { ShoppingCart } from "@material-ui/icons";
 import { Link, useLocation } from "react-router-dom";
 
-import logo from "../../images/palette.jpeg";
+import logo from "../../images/heart.jpeg";
 import useStyles from "./styles";
 
 const Navbar = ({ totalItems }) => {
@@ -30,11 +28,11 @@ const Navbar = ({ totalItems }) => {
           >
             <img
               src={logo}
-              alt="L'Arte"
+              alt="Heart Paintings"
               className={classes.image}
               height="25px"
             />
-            L'Arte
+            He(ART) Paintings
           </Typography>
           <div className={classes.grow} />
           {location.pathname === "/" && (
